@@ -8,5 +8,14 @@ h1 {
     
 }
 h2{
-    background-color: lightgrey;
+    background-color: lightgrey ;
 }
+.container {
+    display: flex;
+    align-items: center; 
+}
+
+.texto {
+    margin-left: 20px; 
+}
+ 

@@ -11,23 +11,67 @@
     <h1>
         Top 5 séries mais assistidas
     </h1>
-    <p > 
+    
         <h2>
             1. How I Met You Mother
         </h2> 
-        <img src = 'https://wallpapercave.com/wp/wp1816631.jpg' alt ="File about How I Met You Mother" width="300"/>
-    </p>
+        <div class="container">
+        <img src = 'https://wallpapercave.com/wp/wp1816631.jpg' alt ="File about How I Met You Mother" width="300"/> 
+        <div class="texto">
+            <p style="font-family:'Times New Roman', Times, serif;">
+            How I Met Your Mother is a comedy about Ted and how he fell in love. It all starts when Ted's best friend, 
+            <br>
+            Marshall, drops the bombshell that he's going to propose to his long-time girlfriend, Lily, a kindergarten 
+            <br>
+            teacher. At that moment, Ted realizes that he had better get a move on if he too hopes to find true love.   
+            </p>
+        </div>
+        </div>
     <p > 
         <h2> 
             2. The Witcher
         </h2>   
+        <div class="container">        
         <img src = 'https://th.bing.com/th/id/OIP.5sbSQ3v9_YZX6SZZw5L6hQHaEK?w=297&h=180&c=7&r=0&o=5&pid=1.7' width="300"/>
+        <div class="texto">
+        <p>
+        The Witcher is not a person, but rather a profession. To put it simply, they're monster hunters. The Continent, the land 
+        <br>
+        where the Witcher takes place, has a variety of beasts and ghouls. Some notable examples include the walking spirit of a 
+        <br>
+        forest called the leshen that's made up of plants, animal pelts and skulls, and the bruxa, a powerful female vampire who has a deafening scream. 
+        <br>
+        Witchers are trained to dispose of these monsters using a variety of tools and weapons at their disposal. Their most useful is their silver 
+        <br>
+        swords because the metal is usually the most effective against unholy beasts. They also have a selection of simple magic spells called Signs 
+        <br>
+        that can be cast using a particular sign with their hands. Two commonly used are the telekinetic push Aard and the fire spell Igni. 
+        <br>
+        Witchers can use Signs quickly in a battle at the expense of a bit of their own endurance. 
+        <br>
+        One of the most important Witcher tools is a silver medallion. These magical neckpieces vibrate when monsters are nearby or if magic is 
+        <br>
+        being used, which makes them invaluable to a monster hunter. 
+        </p>
+        </div>
+    </div>
     </p>
     <p>
         <h2>
             3. Brooklyn 99
         </h2>
+        <div class="container">        
         <img src="https://th.bing.com/th/id/OIP.tqwTz-Q8evCV9A7kSWb8rgHaEK?rs=1&pid=ImgDetMain" alt="file about b99 " width="300">
+        <div class="texto">
+        <p>
+            Detective Jake Peralta (Andy Samberg) is a good enough cop that he's never had to work that hard or follow the rules too closely. 
+            <br>
+            Perhaps because he has the best arrest record among his colleagues, he's been enabled - if not indulged - throughout his entire 
+            <br>
+            career. That is, until the precinct gets a new commanding officer, Captain Ray Holt (Andre Braugher ), who reminds this hotshot cop to respect the badge.
+        </p>
+    </div>
+</div>
     </p>
     <p>
         <h2>
@@ -41,7 +85,44 @@
         </h2>
         <img src="https://bhdicas.uai.com.br/wp-content/uploads/sites/23/2019/08/blindspot-season3-768x726.jpg" alt="file about blindspot" width="300">
     </p>
-        
+    
+    <!--formulário para questionar os leitores-->
+    <h1>
+        Compartilhe seus gostos
+    </h1>
+    <form method="POST" enctype="multipart/form-data">
+        <label>
+            <h2>
+                Dentre essas séries, escolha sua favorita:
+            </h2>
+        </label>
+        <h3>
+        <span>
+            HIMYM
+        </span>
+        <input type="checkbox" nome="HIMYM" value="HIMYM">
+        <span>
+            The Witcher
+        </span>
+        <input type="checkbox" name="the witcher" value="the witcher">
+        <span>
+            B99
+        </span>
+        <input type="checkbox" name="B99" value="B99">
+        <span>
+            Dr. House
+        </span>
+        <input type="checkbox" name="Dr. House" value="Dr. House">
+        <span>
+            Blindspot
+        </span>
+        <input type="checkbox" name="Blindspot" value="Blindspot">
+    </h3>
+    <br>
+    <button>
+        ENVIAR
+    </button>
+    </form>
         
 </body>
 </html>
